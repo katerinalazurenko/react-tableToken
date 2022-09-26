@@ -1,0 +1,121 @@
+.table{
+    width: 100%;
+    border:0px;
+    border-collapse:collapse;
+    font-size: 12px;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+}
+
+.headers {
+    background-color: rgba(245, 245, 245, 1);
+    color: rgba(145, 144, 145, 1);
+}
+
+.data{
+    margin-bottom: 5px;
+    padding: 0 10px;
+    height: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    width: calc(100%/8);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+label{
+    display: block;
+}
+
+.field{
+    width: calc(100%/8);
+}
+
+.statusFilter{
+    position: absolute;
+    left: 0;
+    top: 40px;
+    background-color: white;
+    padding: 5px;
+    width: 80px;
+}
+
+.typeFilter{
+    width: 120px;
+}
+
+.withFilters{
+    position: relative;
+    margin-right: 3px;
+}
+
+.filterItem{
+    padding: 0 0 5px 0;
+}
+
+.stateFilter{
+    margin-right: 3px;
+    background-color: rgba(145, 144, 145, 1);
+    color: rgba(245, 245, 245, 1);
+    padding: 2px;
+    font-size: 10px;
+}
+
+.point{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+
+.yellowPoint{
+    background-color: yellow;
+}
+
+.redPoint{
+    background-color: red;
+}
+
+.greenPoint{
+    background-color: green;
+}
+
+button{
+    padding: 4px 10px;
+    border: 1px solid rgba(131, 8, 133, 1);
+    border-radius: 3px;
+    color: rgba(131, 8, 133, 1);
+    background-color: transparent;
+}
+
+button:hover {
+    background-color: rgba(131, 8, 133, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.withButton{
+    text-align: right;
+    width: 100px;
+}
+
+.yellow{
+    background-color: rgba(243, 239, 193, 0.7);
+}
+
+.red{
+    background-color: rgba(255, 180, 180, 0.3);
+}
+
+.green{
+    background-color: rgba(210, 240, 198, 0.7);
+}
